@@ -13,3 +13,4 @@ jobs:
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           slug: tonyta/codecov-error-repro
+          flags: foo,bar,baz,
